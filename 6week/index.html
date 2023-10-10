@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+    <h2>리뷰</h2>
+    <form action="" method="get">
+        이메일 : <input type="email" name="email"><br>
+        구매번호 : <input type="text" name="구매번호"><br>
+        비밀번호 : <input type="password" name="password"><br>    
+        리뷰 : <input type="text" name="리뷰"><br>
+        <input type="submit"> 
+        <h2>선호도조사</h2>
+        남<input type="radio" name="gender" value="male">
+        여<input type="radio" name="gender" value="female">
+        <br>
+        
+        과일선택<br>
+        사과<input type="checkbox" name="사과">
+        포도<input type="checkbox" name="포도">
+        <select name="car">
+            <option value="테슬라">테슬라</option>
+            <option value="람보르기니">람보르기니</option>
+            <option value="멕라렌">멕라렌</option>
+            <option value="포르쉐">포르쉐</option>
+            <option value="페라리">페라리</option>
+
+        </select> 
+        
+        <input list="sound">
+        <datalist id="sound">
+            <option value="sony">소니</option>
+            <option value="bose">보스</option>
+            <option value="bno">뱅엔올룹슨</option>
+            <option value="sjbl">jbl</option>
+        </datalist>   
+        <fieldset>
+            <legend>인적사항</legend>
+            이메일 : <input type="email" name="email">
+        </fieldset>
+        <input type="submit"><input type="reset">
+    </form>
+    <input type="button" value="드가자" onclick="alert('예아')">
+    <br>
+    <button type="button" onclick="alert('5초후 전원이 꺼질까요')"><img src="black-power-button-1428134_640.png" width="400"></button>
+</body>
+</html>
